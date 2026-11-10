@@ -105,7 +105,7 @@ matches every path above except:
 
 - 10.100.7.0/24 and 10.100.8.0/24 at rx300 and rx65030: Batfish puts an
   eBGP export prepend to the right of the local AS (`200 65099`).
-  batfish/batfish#10481.
+  batfish/lab-validation#41.
 - 10.100.4.0/24 at rx300 and 10.100.6.0/24 at rx65030: Batfish checks
   the peer's AS against the path before `remove-private`, so it sends
   them. batfish/batfish#10482.
